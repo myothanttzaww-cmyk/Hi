@@ -168,6 +168,20 @@ Instructions:
     }
   });
 
+  // Static PWA Assets & Manifest handlers
+  const publicDir = path.join(process.cwd(), 'public');
+  app.use(express.static(publicDir));
+
+  app.get('/manifest.json', (req, res) => {
+    res.setHeader('Content-Type', 'application/manifest+json; charset=utf-8');
+    res.sendFile(path.join(publicDir, 'manifest.json'));
+  });
+
+  app.get('/sw.js', (req, res) => {
+    res.setHeader('Content-Type', 'application/javascript; charset=utf-8');
+    res.sendFile(path.join(publicDir, 'sw.js'));
+  });
+
   // Vite Middleware for development
   if (process.env.NODE_ENV !== 'production') {
     const vite = await createViteServer({

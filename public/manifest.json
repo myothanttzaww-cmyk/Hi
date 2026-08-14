@@ -1,8 +1,11 @@
 {
+  "id": "com.rexgo.delivery",
   "name": "RexGo Courier Hub",
   "short_name": "RexGo",
   "description": "RexGo Native Delivery & OCR Courier App - Powered by Myo Thant Zaw",
+  "lang": "my",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#0B0E14",
   "theme_color": "#00E5FF",

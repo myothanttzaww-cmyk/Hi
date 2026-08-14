@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.21"
+        android:scaleY="0.21"
+        android:translateX="27"
+        android:translateY="27">
+        <!-- Package Box -->
+        <path
+            android:fillColor="#141923"
+            android:strokeColor="#00E5FF"
+            android:strokeWidth="16"
+            android:strokeLineJoin="round"
+            android:pathData="M256,64 L416,160 L416,352 L256,448 L96,352 L96,160 Z" />
+        <path
+            android:strokeColor="#00E5FF"
+            android:strokeWidth="12"
+            android:strokeLineJoin="round"
+            android:pathData="M256,64 L256,256 L416,160 M256,256 L96,160 M256,256 L256,448" />
+        <!-- Fast Delivery Lightning Bolt -->
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M270,140 L200,270 L250,270 L230,370 L310,240 L260,240 Z" />
+    </group>
+</vector>
