@@ -1,0 +1,6 @@
+{
+  "name": "RexGo",
+  "description": "RexGo Native Android Delivery Application with Jetpack Compose, Material Design 3, MVVM Clean Architecture, Hilt, Room, DataStore, Native CameraX and ML Kit OCR.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
