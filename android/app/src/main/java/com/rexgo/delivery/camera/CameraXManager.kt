@@ -2,6 +2,7 @@ package com.rexgo.delivery.camera
 
 import android.content.Context
 import android.graphics.Bitmap
+import kotlinx.coroutines.suspendCancellableCoroutine
 import android.graphics.BitmapFactory
 import android.graphics.Matrix
 import android.graphics.Rect
